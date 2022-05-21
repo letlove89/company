@@ -1,0 +1,168 @@
+/* ------------------------- MENU ------------------------- */
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .menu {
+        width: 100%;
+        flex-wrap: wrap;
+
+        .menu__nav {
+            width: 100%;
+            flex-wrap: wrap;
+
+            .nav {
+                width: 100%;
+                flex-wrap: wrap;
+                display: block;
+                max-height: 0;
+                overflow: hidden;
+                transition: 0.5s;
+
+                .mb-10 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .nav.active {    
+                transition: 1s ease;
+            }
+
+            .nav.java {
+                max-height: 100vh;
+            }
+        }
+
+        .button__menu {
+            display: block;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {
+
+        .button__menu {
+            display: none;
+        }
+
+        .menu__nav {
+            display: block;
+        }
+    }
+}
+
+/* ------------------------- BANNER ------------------------- */
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        font-family: 'Montserrat', sans-serif;
+
+        .banner__text {
+
+            h1 {
+                font-size: 36px !important;
+            }
+
+            h4 {
+                color: $color-font-light;
+            }
+        }
+    }
+}
+
+/* ------------------------- ABOUT ------------------------- */
+@media only screen and (max-width: 320px) {
+    .about {
+        .container-fluid {
+            padding: 0;
+        }
+
+        .about__btn {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .values {
+            .values__logo {
+                font-size: 150px !important;
+                margin: 25px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about {
+        .sizing-box {
+            height: 150px !important;
+            width: 175px !important;
+        }
+    }
+
+}
+
+/* ------------------------- PORTFOLIO ------------------------- */
+@media only screen and (max-width: 575px) {
+    .owl-carousel .owl-prev {
+        left: -50px !important;
+    }
+
+    .owl-carousel .owl-next {
+        right: -50px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .portfolio {
+
+        .owl-carousel .owl-prev i,
+        .owl-carousel .owl-next i {
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .owl-carousel .owl-prev {
+        left: -30px !important;
+    }
+
+    .owl-carousel .owl-next {
+        right: -30px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .owl-carousel .owl-prev {
+        left: 50px !important;
+    }
+
+    .owl-carousel .owl-next {
+        right: 50px !important;
+    }
+}
+
+
+/* ------------------------- ALL ------------------------- */
+
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+
+    /* ========= About ========= */
+    .about {
+        .about-mw {
+            max-width: 100%;
+        }
+
+        .about__btn {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}

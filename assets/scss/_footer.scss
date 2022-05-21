@@ -1,0 +1,14 @@
+/* ------------------------------- FOOTER ------------------------------- */
+
+footer{
+    padding: 60px 0 50px;
+    
+    .button-footer:hover{
+        cursor: pointer;
+    }
+    .footer__icon{
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: $color-main;
+    }
+}

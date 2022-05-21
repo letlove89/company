@@ -1,0 +1,126 @@
+/* 
+   --------- TABLE ----------
+
+1.Variable
+2.Reset Css
+3.Header
+4.Banner
+5.About
+6.Value
+7.Services
+8.Portfolio
+9.Customer
+10.Pricing
+11.Contact
+12.Footer
+*/
+
+/* ----------------------------- 1. VARIABLE ----------------------------- */
+:root{
+    --font-lato: 'Lato', sans-serif;
+    --font-montser: 'Montserrat Alternates', sans-serif;
+    --color-primary: #f4511e;
+    --color-font-grey: #818181;
+    --color-font-black: #303030;
+    --color-font-light: #fff;
+
+}
+
+/* ----------------------------- 2. RESET CSS ----------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+body{
+    font-family: var(--font-lato);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--color-font-grey);
+}
+h4{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: var(--color-font-black);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* ----------------------------- 3. HEADER ----------------------------- */
+
+/* header{
+    font-family: var(--font-montser);
+    background-color: var(--color-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.menu{
+    color: var(--color-font-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .menu__logo a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--color-font-light);
+}
+.menu .menu__nav ul li a{
+    color: var(--color-font-light);
+    font-size: 12px !important;
+    letter-spacing: 4px;
+}
+.menu .menu__nav ul li a:hover{
+    background-color: var(--color-font-light);
+    color: var(--color-primary);
+} */
+
+/* ----------------------------- 4. BANNER ----------------------------- */
+/* .banner{
+    background-color: var(--color-primary);
+    padding: 100px 25px;
+    text-align: center;
+    margin-bottom: 30px;
+} */
+/* .banner .banner__text{
+    color: var(--color-font-light);
+} */
+/* .banner .banner__text h1{
+    font-size: 63px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+} */
+/* .banner .banner__text h4{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 300;
+} */
+/* .banner .banner__form {
+    display: flex;
+    justify-content: center;
+} */
+/* .banner .banner__form .banner__form-email{
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    width: 26.5%;
+} */
+
+
+
